@@ -12,7 +12,8 @@
         android:scaleType="fitXY"
         android:src="@drawable/bday2"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentTop="true" />
+        android:layout_alignParentTop="true"
+        android:background="#e9dd3c" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -25,4 +26,19 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="96dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blow"
+        android:id="@+id/button"
+        android:textSize="45sp"
+        android:background="@android:color/holo_orange_light"
+        android:textStyle="italic"
+        android:textColor="#ff0000"
+        android:onClick="clickbutton"
+        android:layout_marginTop="107dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
 </RelativeLayout>
